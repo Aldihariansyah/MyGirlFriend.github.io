@@ -6,7 +6,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date("jan 16, 2022 15:00:00").getTime(),
+let countDown = new Date("jan 17, 2022 00:00:00").getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -158,7 +158,7 @@ new TypeIt("#teks1", {
     " ",
     "<b>Selamat Ulang Tahun Yang ke - 19</b>",
     " ",
-    "Kepada Inani Eliyana, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya",
+    "Kepada Isnani Eliyana, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya",
     ,
     " ",
     "Wassalamualakaikum Wr. Wb",
@@ -172,10 +172,10 @@ new TypeIt("#teks1", {
 
 new TypeIt("#teks2", {
   strings: [
-    "Haii Tong!!",
+    "Haii Tongg!!...",
     "Happy Birthday ya..",
     " ",
-    "Ciie udah 19 tahun, padahal baru aja beberapa hari kemarin umur kita sama hehe, semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sholehah, dan lebih berbakti.",
+    "Ciie udah 19 tahun,padalah baru aja di tahun kemarin umur kamu  18 tahun:v , semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih berbakti, lebih sholehah, dan cepat selesai kuliahnya.",
     "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)",
     "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin.",
   ],
