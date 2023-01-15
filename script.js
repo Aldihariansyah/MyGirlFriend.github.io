@@ -6,7 +6,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date("jan 17, 2022 00:00:00").getTime(),
+let countDown = new Date("jan 17, 2023 14:18:00").getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -153,34 +153,39 @@ const _slideEnam = function () {
 new TypeIt("#teks1", {
   strings: [
     "Assalamualaikum Wr. Wb",
-    " ",
-    "Saya Aldi Hariansyah pada hari ini Senin, 17 Januari 2022 dengan sepenuh hati mengucapkan",
-    " ",
-    "<b>Selamat Ulang Tahun Yang ke - 19</b>",
-    " ",
-    "Kepada Isnani Eliyana, semoga kamu panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya",
-    ,
-    " ",
+    "Selasa 17 januari 2023 adalah hari:",
+    "<b>SUMPAH ALDI HARIANSYAH</b>",
+    "<b>Pertama : </b>Saya putra dan pria Indonesia, mengaku menyukai seseorang yang satu, rakyat Indonesia.",
+    "<b>Kedua :</b> Saya putra dan pria Indonesia, mengaku menyayangi seseorang yang satu , wanita Indonesia.",
+    "<b>Ketiga :</b> saya putra dan pria Indonesia, mengaku mencintai seseorang yang satu, isnani eliyana.",
     "Wassalamualakaikum Wr. Wb",
     " ",
-    "- Aldi Hariansyah, Mas ganteng :)",
+   
+
+    
   ],
-  startDelay: 4000,
-  speed: 75,
+  startDelay: 1000,
+  speed: 150,
   waitUntilVisible: true,
 }).go();
 
 new TypeIt("#teks2", {
   strings: [
-    "Haii Tongg!!...",
-    "Happy Birthday ya..",
+    "        <b>PROKLAMASI</b>",
+    "Kami bangsa Indonesia dengan ini mengucapkan",
+    "selamat ulang tahun kepada isnani eliyana",
     " ",
-    "Ciie udah 19 tahun,padalah baru aja di tahun kemarin umur kamu  18 tahun:v , semoga di umur yang sekarang kamu bisa jadi pribadi yang lebih baik lagi, lebih berbakti, lebih sholehah, dan cepat selesai kuliahnya.",
-    "Maaf ya aku gabisa kasih surprise yang romantis. Cuma ini yang bisa aku kasih ke kamu, aku harap kamu suka ya :)",
-    "Sekali lagi, Selamat Ulang Tahun ya. Semoga semua impian, keinginan, dan harapan kamu bisa tercapai, Aamiin.",
+    "Hal-hal yang mengenai do'a, mencintai, menyayangi dan lain lain,",
+    "diselenggarakan dengan cara privat dan dalam tempo selama-lamanya",
+    " ",
+    "Pekanbaru 17 jan 2023 ",
+    "Atas nama bangsa Indonesia",
+    " ",
+    "Aldi Hariansyah",
+
   ],
   startDelay: 2000,
-  speed: 75,
+  speed: 150,
   waitUntilVisible: true,
 }).go();
 

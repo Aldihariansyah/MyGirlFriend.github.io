@@ -5,6 +5,51 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <style>
+    .slideshow {
+  width:1500px;
+  height:280px;
+  margin: 0 0 0 -1000px;
+ position: relative;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration:10s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-direction:alternate;
+  -webkit-animation-play-state: running;
+}
+ 
+.slide {
+  
+  width:500px;
+  height: 270px;
+  position:relative;
+  float:left;
+  overflow:hidden;
+  margin-top:200px;
+  
+}
+ 
+.slideshow img{
+  width:500px; height:270px;
+}
+ 
+@-webkit-keyframes slide_animation {
+  
+  0% {left:0px;}
+  10% {left:500px;}
+  20% {left:500px;}
+  30% {left:500px;}
+  40% {left:500px;}
+  50% {left:500px;}
+  60% {left:500px;}
+  70% {left:1000px;}
+  80% {left:1000px;}
+  90% {left:1000px;}
+  100% {left:1000px;}
+  
+  
+}
+  </style>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -17,9 +62,6 @@
 </head>
 
 <body>
-  <audio autoplay loop>
-    <source src="Assets/musik/Musik1.mp3" type="audio/mpeg">
-  </audio>
 
   <div class="bg" id="content">
 
@@ -32,9 +74,12 @@
         <li><span id="seconds"></span>Seconds</li>
       </ul>
     </div>
+    <audio autoplay loop>
+      <source src="Assets/musik/Musik2.mp3" type="audio/mpeg">
+    </audio>
 
     <div id="slideSatu" class="animate__animated animate__slideInDown animate__slow d-none">
-      <img src="Assets/img1.png" class="img">
+      <img src="Assets/img2.png" class="img">
     </div>
 
     <div id="slideDua"
@@ -72,13 +117,27 @@
     <p id="trims" class="text-muted d-none mt-2"></p>
 
     <div id="slideEnam" class="d-none animate__animated animate__fadeIn animate__slower">
-      <img src="Assets/foto.jpg" class="foto rounded-lg shadow">
+      <div class="slideshow">
+        <div class="slide_one slide">
+          <img src="Assets/bd2.png" />
+        </div>
+        
+        <div class="slide_two slide">
+          <img src="Assets/bd1.png" />
+        </div>
+        
+         <div class="slide_three slide">
+          <img src="Assets/bd3.png" />
+        </div>
+      </div>
     </div>
+    
 
-    <p id="tap" class="d-none animate__animated animate__pulse text-muted animate__slow animate__repeat-3">Ketuk untuk
+    <p id="tap" class="d-none animate__animated animate__pulse text-muted animate__slow animate__repeat-3"><b>ketuk</b> untuk
       melanjutkan</p>
     <!-- Footer -->
-    <footer class="page-footer font-small blue fixed-bottom">
+     <!-- Copyright -->
+     <footer class="page-footer font-small blue fixed-bottom">
 
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3 text-secondary"><small> Made with <i
@@ -88,6 +147,9 @@
       <!-- Copyright -->
 
     </footer>
+     
+<!-- Copyright -->
+
     <!-- Footer -->
   </div>
 

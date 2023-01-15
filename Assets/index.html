@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Design by foolishdeveloper.com -->
+<head>
+   
+    <title>Auto slideshow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Stylesheet-->
+    <style>
+    
+ 
+.slideshow_wrapper {
+  width:500px;
+  height:280px;
+  overflow: hidden;
+   
+}
+ 
+.slideshow {
+  width:1500px;
+  height:280px;
+  margin: 0 0 0 -1000px;
+ position: relative;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration:10s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-direction:alternate;
+   -webkit-animation-play-state: running;
+}
+ 
+.slide {
+  
+  width:500px;
+  height: 270px;
+  position:relative;
+  float:left;
+  overflow:hidden;
+  
+}
+ 
+.slideshow img{
+  width:500px; height:270px;
+}
+ 
+@-webkit-keyframes slide_animation {
+  
+  0% {left:0px;}
+  10% {left:500px;}
+  20% {left:500px;}
+  30% {left:500px;}
+  40% {left:500px;}
+  50% {left:500px;}
+  60% {left:500px;}
+  70% {left:1000px;}
+  80% {left:1000px;}
+  90% {left:1000px;}
+  100% {left:1000px;}
+  
+  
+}
+    </style>
+</head>
+<body>
+  
+<div class="container">
+  <div class="slideshow_wrapper">
+    <div class="slideshow">
+      <div class="slide_one slide">
+        <img src="http://i1.ytimg.com/vi/hP9zimdPXtk/0.jpg" />
+      </div>
+      
+      <div class="slide_two slide">
+        <img src="https://i1.ytimg.com/vi/HiS1-l2xadg/mqdefault.jpg" />
+      </div>
+      
+       <div class="slide_three slide">
+        <img class="slide_img" src="http://i1.ytimg.com/vi/_di83KPJY3s/0.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
